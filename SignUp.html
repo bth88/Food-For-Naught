@@ -3,9 +3,91 @@
 
 <head>
 <title>Sign Up</title>
+<style type="text/css">
+.title {
+	text-align: center;
+}
+#OrganizationHead {
+	text-align: left;
+}
+
+#Student {
+	text-align: left;
+}
+</style>
 </head>
 
 <body>
+
+
+
+<h1 class="title">Food For Naught</h1>
+<h2 class="title">Your #1 source for free food on campus</h2>
+
+<!-- The tabbing b/w pages needs to be done here.	-->
+
+
+
+
+<div id="Student" style="position: fixed ; width: 30%; height: 100%; z-index: 1; left: 20%; top: 119px" class="title">
+
+	<form action="SignUp.php" method="post">
+		
+	<h3 style="text-align:center">Student Account Sign-Up</h3>
+	<label id="label1" for="text1">Email Address:</label> <input name="StudentEmailAddress" id="text1" type="text" />
+	<br>
+	<br>
+	<label id="label2" for="text2">NetID:</label><input id="text2" name="StudentNetID" type="text" />
+	<br>
+	<br>
+	<label id="label3" for="text3">Password:   </label><input id="text3" name="StudentPassword" type="text" />
+	<br>
+	<br>
+	<label id="label4" for="text4">Confirm Password:   </label><input id="text4" name="StudentConfirmPassword" type="text" />
+	<br>
+	<br>
+	<label id="label5" for="text5">First Name:   </label><input id="text5" name="StudentFirstName" type="text" />
+	<br>
+	<br>
+	<label id="label6" for="text6">Last Name:   </label><input id="text6" name="StudentLastName" type="text" />
+	<br>
+	<br>
+	<input style="position:relative; left:25%; padding: 0px 25px 0px 25px; text-align:center; vertical-align:middle " name="Submit1" type="submit" value="Sign Up" />
+	
+	</form>	
+
+</div>
+
+
+<div id="OrganizationHead" style="position: fixed; width: 30%; height: 100%; z-index: 2; left: 50%; top: 119px" class="title">
+
+	<form action="SignUp.php" method="post">
+
+	<h3 style="text-align:center">Organization Head Application</h3>
+	<label id="Label2" class="OrganizationHead">Email Address:   </label><input class="OrganizationHead" name="Organization Head Email Address" id="text2" type="text" />
+	<br>
+	<br>
+	<label id="label2" for="text2">NetID:   </label><input id="text2" name="StudentNetID" type="text" />
+	<br>
+	<br>
+	<label id="label3" for="text3">Password:   </label><input id="text3" name="StudentPassword" type="text" />
+	<br>
+	<br>
+	<label id="label4" for="text4">Confirm Password:   </label><input id="text4" name="StudentConfirmPassword" type="text" />
+	<br>
+	<br>
+	<label id="label5" for="text5">First Name:   </label><input id="text5" name="StudentFirstName" type="text" />
+	<br>
+	<br>
+	<label id="label6" for="text6">Last Name:   </label><input id="text6" name="StudentLastName" type="text" />
+	<br>
+	<br>
+	<input style="position:absolute; left:25%; padding: 0px 25px 0px 25px;" name="Submit1" type="submit" value="Sign Up" />
+	
+	</form>
+
+</div>
+
 
 </body>
 
